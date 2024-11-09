@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Executive Room Details</title>
+    <style>
+        #reservation1 {
+            background-color: snow;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+           
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL_pIMJV0Y6OgCG5J056TtU5yrQ5l-jB0_tw&usqp=CAU');
+        }
+        #reservation2{
+            background-color: snow;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+           
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .container {
+            
+            align-items: center;
+            text-align: center;
+           
+        }
+
+          
+        img {
+            max-width: 500%;
+            margin: 0;
+            width:350px;
+            height: 300px;
+            align-content: center;
+        }
+    </style>
+</head>
+<body style="background-color: black; color: white ">
+    <div class="container">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFRYYGBgZGRgZGBgaGBgcGBocHBgcGhgaGBocIS4lHB4rIRwYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQhISs0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBB//EAEAQAAIBAgMEBggEBgEDBQAAAAECEQADEiExBAVBUSJhcYGRoQYTMkKxwdHwFFJi4RUjgpKisnIkwvE0Q3OT0v/EABkBAAMBAQEAAAAAAAAAAAAAAAECAwAEBf/EACMRAAICAgICAgMBAAAAAAAAAAABAhESITFRA0ETYSJxgTL/2gAMAwEAAhEDEQA/ANB+DYLhXCddZ6j8VHdiHGqs7rvLpHc31rVhKlGyqQTiAPIzn2ZVFoupGOFi8NVPkfhThccaqfA1pjarnq6GIbM4No5ipFvCr5rA4geFQtsaflHhRpgyRVC4tPDDnRzbvTl5moW3cOZ8q1MNoiFdinHYiNG8qb+HccR41qZrXZzDSw0sD8vhXJPL41gncNBbwUhGIy0+IFGes6qjvqGXCeryMwY4ZUNA2ZS3siu3RR3bOYBOfR4DTOak2jdjwf8Aprvv5+rf8sLw516Zu/fdlVClRbAywhZUdmEadoFWJ31s8SGH9rfIVOmM5tejw4LgeULI2L2TkD0jkR2RWytWzGdXPpPftbQmBUBaQVulcJSGBOGekSRlERn1UBhp4rQHIgw0sNTxXGFGgWQYa4UqeKaVrUGyGKRFSRTSKFGsjIprIKkIpKhOgmtQbIDbFNNuijbA9pu4Zn6VE21Aewvfr5nKhSDkyIWWieHWY+NMZo1iuu7Nqfn5mmBB+/GhQbO4+VIk0opRWCMIpsVIRTSKBhkUqdhrtYxtRdFO9YOdZU+ldsEhkcFZnIHSZ0PVNPX0s2aFJZgGxR0H92Z0GWh8KpkSxNRjFdxVnrPpLsz6XRzzy4Tx6s6Is752dvZuoc4kOuvLI60cjYl1NcNBW9oVvZcHsNShjzopitExFMK03Gaabp6qNoFMcVphWu+u6q560cqa0LTGlK5gp/rV6656xedA2xhSmG0OQqeRzFKBzFajWCNs6nhUZ2QcJHfRxWmEVqRlJgJ2U8GNNNphxBqxtMoYFhiHETE99N2hlLEqIHATMd9ChrK+G5U0seRopjTQJ0rUHIHLiuYhRybPzrlxUGoHz+/ChQbAad6s8ch10rmH3VjtPyqG4J1oGHPcQaSx8vKobl5zl7I5fsMq7hrhWgNRAU559tdipCK4VoBI4pRTyK5FKMMilhp0UooBGxTSKkiuRWMRxSqSKVKErUtqC7H3rqrpnhJaF++Ypm0bOhZEAEKIyMiXaMp1yjxqd/56KxQKpuWWAVsUA5kMRGEyYzjgc5pbOuN0YRIdMXWFtLB8CDnzotNcgTT4K1NiRGTIEMCDlqCloEQNfePDjUaWlKAIhXG4MAzhb1aRly4+NF+sxNaI0hiQBqQoWGHbGvKi9q2JQyFRENiIBInDYU9Eac+2tfYK6BbGxBEt4vz4OHsp6wAf4qe6jd3bK8uUciSGjEwiScsuyoGvY1tsoxkXXBg9d6ZzjQHXl2VqPROyMDHIzhnQ5jEMvLWq+JZSon5XUbAUN5f/AHG/vY/Gik2i9+YntCH4itCdnX8opv4RPyjzrp+J9nL8q6KMbXd4qp7U+ld/HNxRe4MPnV5+DXlTTsKdfjQ+Jh+WJS/xEcbfg5+ldG8E4q47Cpqy2nYVAkHio8WA+dR7Ru0KrNMwCYgcBS4SGziBjbLZ4sO1B8jXfxNv8471YfKhnw/k7dMu0wKYMBBOEwJzgRl/VNDF9Bv7CztKDP1iCNZaPjXBtiHS4h7HU/Oq7aLNtsgMywBBBiJz4wc4rKbTbViCAIlsQM5soRPDM+IpJaY8fyRv/W8mHlTGfrFYWxu0LeHBRJnLPoYpPfUC23VDDuCrHPGwMAmNDxyFLkNibx9qRATcdVA4swA86qtp9LUBwWEe63DCCF+EnuFYr8OXa6zEsVdwpJmOl0fLlyo61tN62gwOFhwrAInvAMhPR6yJ6q2RsTXbk3ldvK5uAKyuUwrIiEQwZMkyxo/DVJ6IYil4uZb174j14EnLtq/K0TEJFMIqYimFaBiEimkVMRTSKwxDhrhFSkU0igEjIrhFSEU2gEjilFONKgMNrkU6uxSsxHFKn4aVAYyVnantsjoxU4UEjiMIyI0I6jWg2a9bLhjFsmcSj2G6IEr+Q5Dq6xWYxiEBGfQg9w+++rzZkxOgIBBDkg9SEjzq03ujljfKObXsoVUW0emVyOUiUd4JkDRCfroSUsuqBW5uuueezaknxI6qlZAGtsCYHWCB/wBNtI4aDqqPfO1YozJPrHXojX/p3XhnH04VI6CLYdmZBDiP5jYcxBkbQZEcZPnWp9D3JRwVjCV75xGfh4VkNptsiKpJycYVBJMH12LOJ1YazkTW19HdoK2/YLHKQo01qvhdTT/ZLzL8Gv0XmGkFoY7xjW1c/t/ekN6JxS4P6B9a7ckcOLCwldw0KN7W+TjtT967/FbXNh/S1bJdmxfQttHQ/qT/AHWnbYvQf/i2mulC7bvG2ygK2eJD7LDIOCeHIGpNr2+0yOA4JKsAIYSSMhmKFq3sanS0Zy7wETE5e6NPaPGmIZB9459SjIeXhTrx0yJ6hktNGkHPXJRlp2fWp2UoZccgkhiTOQAJjMRA0NZ4kSqgSCpckjOSgaerMHyrTWrRxpiSFZ4kg58dTWY227hDnjgfCI1IEDSo+Tkt4+AgtjZYbUYTlzEfI+FBPaaLhictBGodZ8Ol8qM2OyQ1sA6szZyYVQ4PfiJy7+dddB/MM6lj4th+FRssZ7d6sWuQPfBy0yc/fdVlsiHExIGEkDXXCBBj+oUFutM76z7xH+TDwzFWjJ0AJAJxoD+qEIEdiGi+REXXoiJS+ed4nxRDV8y1S+hiQl0HUXRP/wBaVfstUS0K3sGZajZaIZaYwo0awcimkVKwqNqAbIyKaRTi1MLUDJjTXCK6TSoUMNrldpUKDZyKQpwFdilaCmKKVKlSjWYAHNJ/Rp/xEfKr21tGAYwJhWETHtKBOlUCN0knkn+q1b70ufy3K5ZDTrKT8arLckcqdJhpuNdxBRGAoFjkqbRrBnOIqNdnZLzSCoxOIzgzZuEMDEQc6ssRLMUGeC2R3peAicveNVe8dodGUOXBxAywnI2nUydPvSp8nRwG7JtYuWpIhsVpipzILF+Y041qfQy4SXBBHRQ5jraDPHXyrIWnQWnwGQTZM5QCHEzFbT0YuEYpHRCSNODZ+RFP4XU1/RfLuDNNSqo2vfCwypiVoyYgQPjVZZd36RdyZj2mEd1djmkcai2asULvF3CdD2iQOwQcxPdWftbe6MFN0kjECDiOZGWeemVPbb7jwpuZACehqwkTJA58KzkjYOx+1I3qyHcsejqZiXWq028OIZZeGlFXbxZXzGQXj+teFA37x6WFWJy08Ouly7GobczjU9mQ8v2pgYxrGuhJ8/3qL1jmZCrkYkgkGOsn4VGlxuN0SOt48hFCxqJ12nprLtAM9JuiNcxyrPO5li0EBDGXDC2v9IXj1wK0Wxkm4gZ1cZ6ZxkdZH3FUFy+CcXsgF14Z4ZT4A1CfJWHAZYA9YhnM4gI4YmZj99dBqjxeMz0gAYz9oHwnFl10Vsuz4mVjAhgYInogkac5GvLtojcuwnaRcUNhwhWOU+07EDyqdFTK7sze7h0JeMtZxMOvgfGrHYkJRcTSfWK3WGKEHs0PjVpsvoa1tp9cDLT7BECGEe1ybXqqttW+mwJ9nAxOcyC6mOWcefOtad0BxaqzR+h3s3//AJz/AKLV+1Zz0MMLfB1F4g9yIDWjNWjwSlyRNQ964FEkx98OdTXnABJ4Vn7oa90nJCGQqjVgDBJPBZGQ40aBYtq3yAYWPNj3hch41W3d6OdMf9qD4yatUsIoyVajvFYyVfAVnH7ApLopX3i/Nx/Z9K4u8n4OD1MoHwom7HKhnsI2Ry66RplU0SpvhlMOsddWWz7eraGs9tKNZjFDI2fMEcY5GoWxI0rmnA8+zrpbY2jYq9PFUuw7cDAJq3sZkDmQPGihWEiy35T4Go7oIHsscwMhzMT2DWtK1qhbtmpTm0VhFMo5HX4GlVk1ilUvlfRb4l2eSrc6Q0mEHksVc3CpR2Yn2QwOWc6T3qKH2XaNlJCmTcQKGksq4gVQgEso1M9gNWhZcgLeEEDEMEZAGMJbomej/ccsq7JQ92edFkWx7WwusW9gJbDcoBfCc9chHeasNpvrde0w0dgRkQc7bgDPXt0Iz0oe0VZnWMOK3bUkCJKknh2tSu2wjph4OCc+AR54DgdKkzpQLuVjdR1f3cDDC3DGDB6vPsrb7q2zBKqB0lwgREAn9j5c6xe6biIHAVgSgxgHKVcnEI4EzWm3MEI9YRiBRgBjIMkrBkA8J8fEx/0hZf5DXfpkwJgyZMDTjMip9gL4TgVYn3i00Hs9/pMbuGACFI9s9IRpmRE8KurCLHQAIMEhA7HMHKScP3nrV7IUVFx+nBjFOmN4nsmmKwxGFXFnOb88+NWd/ZUzDOyTPBScpJ9lstOMVIm7Nnwgl2zWZGOROcnpHOjZqKe0+TgBYgYtfzrp3x51BtHEFCRlpiI14UWl1IuIAQwAJkqVKY0zkZznVfd2tCZVhE64fajtGlZmQ6zZEexE82I+BpW7Cg/+nZutcR/7pFNO0ZTjEf8AEUrSK0F7+DFmowEzwPsnhHGhdGolusqOhSzcQgMSGxS0D3RJ0z8aobbTwMGS0zrDc9M5rQ7LaQXVw3PWAq+eEqBCHTPOsxechCMySzxx99x5Zd1TlspHRZWXBaGkQQsDLVnj4fGjfQa9bs2rjXHUO/qwZmYAYgf5z31VbPJZATDEljkM8COCD2kHPLXqobZY9Uxj3EMznqBInTTyNJdFKs3O0b4sAKTcXpiViTIMxp2HwNYUBPX3yGJV2YqQTEFzl1Qcqs9/3UZtmRbWEIUCH8yR0cU6mWB/qaqlEh3I/Vp+llJ/7qWMas0pOSRofQm0XO0Rp69yT2qsffbWmey4GmfiPLWgfR+3+HsjAFm4zXXJnV/YAg5AIEHbNO2/fzqDhVZyzg8dNTVslFbJ4uT0Q7fux7hAxsF94YYkcRinojr166R3USshgIyAC5AAZAZ0Su8vWKI0IE09NvKiCoMaENHy1rWuzOP0Um07DcEBEZpIBaRCydY1MVzbt0l5w414DD8dKt7u9gPcP9wHyqPYt7q7MpXDEcZ14adtLabqx0mlwZv+AXB77HtQ/I1z+A3ef+DVsvWA6UwvTV9g/hlV9HnZcLkRwMaedBXNgt2SVkvzk9DTkANK1+1XoQ151t21QHfrJ7tanN1pDwV7ZE22LjbCpUA6j2fDhWh9F9pZ71tZBGMdvRBb5VjNhmBOpzPfWg3Pt7WbmNApZRkGBjMFSciM4JoZUBKz1lhQt2s7u/0nuXFJKIIMZYvrR6bbcdWIVOjE+1xnr6jU/JtWUhoMrlVf49+S+B+tKpYMtmjxxbSTJUGTOZb6zR1raghBS3bBGhhp0ji3XQagc67dida7FJ3yczhGuCzXe9zFiGGYA05Z1PsO9rly50iJUYlAVc2JCiZjLPyjjVIjjnR+5Y9YxiYSVy94MpBz0IAYz1VlG2GTSjo0mybPaCdJSZWDBw6NMjI+NWmzbyQRbtrEAmG6UjIfTSqrdSMUIgnM+QH1pn4W6rowRoDZ5roRE69c91TdrQFRrLW0K2YVZ7J+NWdvbFW2fWGQDCqZaciYCDInXiO2s5bRwclY9x+VGvvE2kZswQAYBKmJE59hPhTRk3yJKKXBb7TtGJVwIzElhqqRiBiArE/POYoHbNtZAqlUJIiB0jxnq8qrbXpJPvOOx/2ohN6MwJD3ImNVPCeVUTT9k2mlwd2BHK3uiwGDL2on1iRCka9mVDJu0skm0+KD0ltOp/sA8qN2XHdAZcbYg8AhZyy4DLOitm3DfKQ74WI1JBIn/jrHdpTsUqdn3RcAyUkZRiRk8jwozd+xurDHaLQcgLiAjPLCTMRRZ9G7xENfnrQureRA51H/AAdkbO/cGkKxieGvS+zS17CK/ZRLyBbT2wbd3os+MtkYOR6PGseGaGkmZaOY/mvPkV8q9DXZQHDQZwFfbZhB11HzoE+jtjWGMYsi7jVsWcEcaWSseLrkzVtxjIUEw8HmJRz86H2DYHZHCJddm9SoULKKJXGW4qRDH+39VbaxsGzISTZgkyWLM4yGvSYxx4Vb29qVgArCOABjwFZRQXJmH35uDabrhktCFYxLoCQMlA6WUwvKINCbt9GtpVv5iZliztjQgYsM4QGkwAeGdejFq4W7PvvpnFPQik0Ul9xB4eArLb62gCc4zgc5JCiPGfvP0FnFQXLSNqqntUGklC/Y8Z16M/u2Ak9UCnu4+Jq4u7KhGaiOz6UDf3cp0LL5jz+tBxYykmzPbdcic/vL96G3I5JZv1EDu1NXG17oLA4XE9YI+Hf40PsG5HtqBjVo45iaRRadlHJNFvYyXtpO9NVSFzodnM1UmV+/tqwoRxbojv8A2k1iN9NCRzIHnJ8hWi36xNxEnQFiO3JT/tWa3+sMizMknwgfM1Fu5IrVRZHsw0qxsISzRQexpMVdWAAzdg+NJKRooP3EOiw/VWytX0tWQPePSc9Z4dg0/wDNYa3fdGT1ZAxN0pUGcwBrp3c6vd82DhLKxE6CMu6jjcVfsXLbr0NubVak9tdru79gs+rQsGJKgkk8TnSqeuymzyVbY5t4j6U8IOIPj9IpyiuxXTkJR1UX8vm3/wCqmsuEkqsEiDmdO+ajw10ihb7GpdGg3XdLJGJhMkQIgmMQ0zGXlRRxjRz3xQW5ZRSxPRa0xBj2SLpWCZ/Ti4e0KJ/Er+YVpIkPO0XR74PdRO73tt0dpBw55hmAz1xRQXrRzFcZ8jFZaM9mm/A7FEquXAh3+TUO6WlB9WWEjRodDylWEnxqr2NiVVRmYEAZk9g41ZXN3X1ttcNtgFXFByY9QB0PbFUSv0TevZ6BsyqihEUKo4ARU2Oap9l23GBMTAkAyAYzzoxblUsSgvFSeCIIBHI51Ctyu4qFhogu7KPcYr1ar9RVZetMh6SsAcsSv25iRkfCrkvTGaaVjIrbLiOixPWzknv5U5mU+1hnz+vOht5bGVBdCQADKgnLTNfDSqx9oxA8SDzgxxIIy7uvrpHKh1Gy4O0J7lyOxsvCYrp3iV4h46oPiMqzD3mUlWOKTkQCJGeGQNG4SNeVRrdullNtwV0ZXIwiCM1hCSdcie+hkHE2OzbyR8hk0xB17udEG5WVvPMEZEGeXCO7to3dm8sYwsemAD2jQmJnI8/rRUgOJclzzprOD20GbtMa5RsFBDvULPUb3JzqL1lCw0EY6aEEyAJ8qhFyui5QsJx91WnOJ1Bb82jdWYziqzeforZukHE6sNCCDrwIIzGXb11Zi8QTWQ9Id9XUvYUeFwgkQInE2ek6RxpcfY2WqGbXuK7YliA6D314f8l1XzHXVLvm+8AoSM+lBjKOPfRh3tcfJ3cg6gMcP9s0y9aR9R40i1K6M9xpMrt2bTefoKxEAtJOYHNZYcvKtzuy49y0AZcqAXLMBKiJPSIgySMqzWw7EiMShwkiDmSDmDB1yyqyW/lgUqrThBD4VM8STJjTLMccqacsmqJxTi9l1s28QFAAIAmPa5nnSrH7beZXK+1EZjQ9EaTSpcC3yPoo1p4pqVIopmwpHQKlS38D8KYBRNgCD2N8DQsZIt7Oyf8AQtdxwFQoQRqS5MDOMy4z/SK1HoNu1bFkO5lrilijRhAYgrlEzhC69dVfo/sSvYCuAyHCSjBWWQNYI17eQq/eOQrpg1yzkmnbSDt8JYuWntwiFxAdUQus6lSRkYnPhVTvvZdmXZbhS0iulpsLgdKVXJieJy41KyAnSuXdjV1ZWmGBUiTMEQdKo5RfomoyXsP9Eb1tNmtGFDsgLtABYnPM8atd57UrWLg5o3wyqh2DZFtoiAk4VCyYkwIkxxoja0Pq3w5mNAPHymjaxFxeVlTs20FTI++qrzZtrDD49VZhWqVNoK5gx96HqrmUqOpxs1y3KnV6o9i20NrqNRy/arFblNYlBoNRO9A7RtZAgGmptEqDzrNhSC2esnvEerumNPaUZkkEjogcPeHcKv2u1R7/AGMow4ypyJkCG59TeJpJcDrkq94M+NMIBGIrnoAYYMeyIjKedSKsN7TZwY6PYZynQ86jVpQdUDXkf2FNuPE9UT2H7PhSDBJv4STmQfufvqqO1teC6pB1Kz1g4p1aAIk6cahLZR95GhtpYjnoQI5yNTE86xjYm7TcdCrdkA88/Gu4qoITeszp4NC4qmZ6xiQmm4qiL1zFQMdvtn2/KsF6QufXsBrhyz6jxrXb220W1ViJlsOoGokT4GsHvnacdxn5iYB7eMUUK2RLtDicXKQGXU8p186Is7wEZqR2HTuP1oKztQ5lfh5fSiAVPuq3Zke/D8xWa7Rk+mWJcAmWAAMSQczny7DXJJ9khv8AiwP71Xu+KQSRLBshPPhPXTTs5zjC3LOCOuDFCkM2H+tfm3gaVVsXRwud2OO6u1sUDJiUU9RTUNOWps6EPiiLTgKR1H4VCDTy3RPYaUY2Poi+K2VxDokdHjGEHF2EyO6r0oKynontUBiYzCrygKMu0/WtN60HjXUlpHI3tko6q7FRq1PBopCtkqGnvegVCrUx2phWrKbbNo6ZkQG49fX20y5oO0UXt2zhgQarkBCgHUGPIxUpr2Wi/QRbuEaGDwPyPMVc7JtuIQciNR98KoVNODmcjBByPyPVSJ0M4l9ceaZsr5EcjVQ29MJhhnHDOn7s3gHcqAdJ8DFMAuzVXv8AWbXYw0j3pTif1UcXqv3u/wDKf+k5dTAis+AIodmuQuURJ0I+VOusDi61gd81Fb0PbzmMgNYz0pYqmMEh6G2lpjt7tOOdJWqPaWynL7BHzrGNJslybaHmiH/EVKz0DsT/AMtJ/Iupz0GtS+t5VQUnZqkY1W3dvRPadR1EifChL/pHbAhZYgAZD4TFYBeVwmsnf9IGb2UPaWjyX60J/GL3DCOxZ/2JrAs0fpFbxbO/VhYdxz8iawO1PLdUAeVWlzed5wVZyQciMKadwqp2kwxIyy+VFcitkQtciD2iD3cKTKRqCOv6Gu29obiA3E8D4j5iiLe0JwJU9f1GXjFPtASTIV2lhxntz89alXahxEdhy8D9ae1oEThEfmXTuIy8qjFsicLDMEZjgev/AMUv4sNNEv4pfzHwPyrtBfh2/L5j60q2KNbDVp81GrVIKizqQ8GuO2RptIiQRxM0EjNmk9HU/lr1yf8AJh8qvUyqp9HrRWygOpE+LuRVyorr9I5Pb/bJUc1Mt2oEp4FYJP6ykXqAn7+/vOmk0ApHbhqp29SOkuo8+o1YO9Q3RNKxkgTZ7gYAjT7kGuY9aGEo/wCljn1HgfgKkDVGSplE7K662bE8/h0flRW5b2G8n6pX/EwPIVXuf9m/2NMW/hdH/I6t4GTWQrN3deKqt7Xf5T9w8WAqXa9rVJLEAcz8ufdVDt++kYFVVm6zAHnr4CnAR2LwGROscDzPPtNStcBzAPach5TVO+1H3RHbBOWnADyqDEx1J+A8BS4hsuLm1hfeXjpn2UJd2tScyTnoNDrkZ4eNDJbNSC0Mu0fGjSBkwob1u4QqkAAAA4RMAQJmh7t24/tux6pMeGlTYQBwoa7tiL7TDLgMz5UV9Af2cFkCl6vKgru9hoik9v0FRi7ffQR2AD4yabFiWizt26gubQiky47sz4ChRuu6/tE95J+NEWtw/mJrUlyzXJ8IFbeKjIAnwAod9pJ6WEir+zu1F0Ud9K9u1W1Hhoe2jcTYyKFcDdR6sj4aeFdOyngQ3kfA/I1Y7TucHQeFAmxcTTpDkfrR/TBxyiIYlORKnvB76ITaSfaUN1jI+Iy8qau1g5MI6mEjuPCpPVKRKkrPLNT1c/jQf2gr6Y71yfr8FPzpVD+Gbmv931pUtR7Db6OLdp63TSpUGkUTY4PPGnqOvwypUqVjI0vow7dJSSQAsSZjM5DkOqtJ9/GlSqkX+JOSVj1NPmlSphTk0x/v78a5SoDEbVExpUqAwHtaSDNVux3iHNts+KnqGoNKlSS4MuQJm6PeflUTcPvhSpUAjb7MxGIkwIEmYHIVGFzrlKsAa11QNY7jQ53inCT3R8aVKqRimibbsj/ipnooO8007ddY5YV7B9ZpUqekI2yZdhvXPackdZy8BR2z+j6j2jNKlU5SZSKTLOzuxF0UUSLI4fetKlU22USQ7B99wruD776VKgEa1kVG1r78/rSpUyAzhX78qjeyG1FKlRAAbTutTVTe3aymVMd9KlTxbJySIMVwcB999KlSp6Es/9k=" ;height:50px,align:center,width:50px />
+    
+    <h1> DOUBLE BED EXECUTIVE ROOM</h1>
+        </div>
+    <hr />
+    <br />
+    <div class="container">
+        <p style="font-family: 'Arial Narrow', sans-serif; font-weight: bold; font-size: 20px;">
+
+          
+
+            Executive rooms are generally more spacious than standard rooms, providing ample space for both living and working areas.
+          
+
+            Expect larger and more comfortable beds, often queen-size or king-size, with high-quality linens for added comfort.
+          
+
+            Executive rooms are often furnished with upscale and stylish furniture, creating a sophisticated and comfortable ambiance. The decor is typically more refined.
+         
+
+            Many executive rooms offer better views compared to standard rooms. Guests may have the option to enjoy scenic views of the surrounding area, city, or other attractive landscapes.
+           
+
+            Executive rooms come equipped with advanced technology, such as larger flat-screen TVs, high-speed internet access, and additional outlets for electronic devices. Some may even have entertainment systems or smart room controls.
+            
+
+            A dedicated work area is a common feature in executive rooms, with a spacious desk, ergonomic chair, and enhanced lighting. These amenities cater to business travelers who may need a comfortable workspace.
+        
+
+            Executive rooms typically include additional amenities, such as a minibar, coffee maker, and upgraded toiletries. 
+          
+
+            Executive bathrooms often have upgraded fixtures, a separate bathtub and shower, and premium toiletries. Bathrobes and slippers may be provided for added luxury.
+          
+
+            Executive rooms come with enhanced room service options, extended hours, or a more extensive menu. Complimentary access to the executive lounge, providing additional services and amenities.
+           
+
+            Guests staying in executive rooms may enjoy special perks, such as priority check-in and check-out, access to exclusive lounges or facilities, and complimentary services like breakfast or evening cocktails.
+          
+
+            Executive rooms may also include accessible options for guests with disabilities, ensuring a comfortable and convenient stay.
+           
+
+            Executive rooms are priced higher than standard rooms due to the additional space and amenities offered. The elevated cost reflects the enhanced level of comfort and services provided.
+        </p>
+
+        <p style="font-family: 'Arial Narrow', sans-serif; font-weight: bold; font-size: 20px;">
+            Price: $180 per night
+        </p>
+        <br />
+        <button id="reservation1">Reservation</button>
+      
+        <script>
+            document.getElementById('reservation1').addEventListener('click', function () {
+                alert('Your reservation has been confirmed!');
+            });
+        </script>
+        </div>
+        <p>
+            
+        </p>
+        <hr />
+    <br />
+    <div class="container">
+        <img src="data:image/jpeg;base64,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" />
+        
+        <h1>SINGLE BED EXECUTIVE ROOM</h1>
+        </div>
+    <hr />
+    <br>
+    <div class="container">
+        <p style="font-family: 'Arial Narrow', sans-serif; font-weight: bold; font-size: 20px;">
+           The room includes a comfortable bed, usually a king-size or queen-size bed, with high-quality bedding and linens.
+
+          An executive room typically provides a dedicated work area, which includes a spacious desk and a comfortable chair. This caters to business travelers who may need a convenient workspace.
+
+            Bathroom: The room comes with a private bathroom that often features upgraded amenities, such as a bathtub, shower, and high-quality toiletries.
+
+             Some executive rooms include a separate seating area with a sofa or additional chairs, providing a space for relaxation.
+
+             Executive rooms usually come equipped with a flat-screen TV and entertainment options. Some may offer premium channels or in-room movies.
+
+           High-speed internet access is typically available in executive rooms, allowing guests to stay connected.
+
+             executive rooms may offer additional amenities, such as complimentary snacks, a minibar, and access to fitness facilities.
+
+          executive rooms may provide better views of the surroundings.
+ Guests staying in executive rooms may receive enhanced services, such as priority check-in/check-out, concierge services, and access to exclusive lounges.
+
+             Executive rooms may offer additional in-room services, such as room service, a coffee maker, and a selection of teas.
+
+        </p>
+        <p style="font-family: 'Arial Narrow', sans-serif; font-weight: bold; font-size: 20px;">
+            Price: $175 per night
+        </p>
+        <br />
+        <button id="reservation2">Reservation</button>
+
+        <script>
+            document.getElementById('reservation2').addEventListener('click', function () {
+                alert('Your reservation has been confirmed!');
+            });
+        </script>
+        </div>
+    <hr />
+    <br />
+    <div class="container">
+        <p style="color: #fff; font-size: 20px; text-align: center;font-family:bold;  bottom: 10px; right: 20px;">© 2024 Emanza, All Rights Reserved</p>
+  </div>
+    
+</body>
+</html>

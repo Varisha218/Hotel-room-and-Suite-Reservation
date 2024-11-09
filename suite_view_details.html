@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Suite Details</title>
+    <style>
+        #reservation1 {
+            background-color: snow;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+           
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL_pIMJV0Y6OgCG5J056TtU5yrQ5l-jB0_tw&usqp=CAU');
+        }
+        #reservation2 {
+            background-color: snow;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .container {
+            
+            align-items: center;
+            text-align: center;
+        }
+       
+
+        img {
+            max-width: 500%;
+            margin: 0;
+            width:350px;
+            height:300px;
+            align-content: center;
+        }
+    </style>
+</head>
+<body style="background-color: black; color: white ">
+    <div class=" container">
+        <img src="data:image/jpeg;base64,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" ;height:50px,align:center,width:50px />
+
+        <h1> SINGLE SUITE</h1>
+    </div>
+    <hr />
+    <br />
+    <div class=" container">
+        <p style="font-family: 'Arial Narrow', sans-serif; font-weight: bold; font-size: 20px;">
+
+            The suite includes a private bedroom with a comfortable bed, usually a king-size or queen-size bed.
+
+            There is a separate living area with seating arrangements, a sofa, and sometimes a coffee table.
+
+            The suite usually has an en-suite bathroom with standard amenities. It may include a bathtub, shower, and essential toiletries.
+            Many one-bedroom suites provide a dedicated work desk with a chair, catering to business travelers or guests who need a workspace.
+            The suite often comes equipped with a television in both the bedroom and the living area. Some suites may have additional entertainment options.
+
+             a one-bedroom suite may have a kitchenette equipped with a microwave, refrigerator, and basic kitchenware. In some cases, there might be a full kitchen.
+
+            High-speed internet access is typically available in the suite, allowing guests to stay connected.
+
+            one-bedroom suites may offer additional amenities such as complimentary snacks, a minibar, and access to fitness facilities.
+
+            The suite may provide views of the surrounding area, though this can vary based on the hotel's location and design.
+        </p>
+
+        <p style="font-family: 'Arial Narrow', sans-serif; font-weight: bold; font-size: 20px;">
+            Price: $500 per night
+        </p>
+        <br />
+        <button id="reservation1">Reservation</button>
+    </div>
+    <hr />
+    <br />
+    <script>
+        document.getElementById('reservation1').addEventListener('click', function () {
+            alert('Your reservation has been confirmed!');
+        });
+    </script>
+    <p></p>
+    <div class=" container">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGTFT1bkPw3nC0lbfPgQ6STBOhW8-cgw2voA&usqp=CAU" />
+        <h1> DOUBLE SUITE</h1>
+    </div>
+    <hr />
+    <br />
+    <div class=" container">
+        <p style="font-family: 'Arial Narrow', sans-serif; font-weight: bold; font-size: 20px;">
+             The suite includes a bedroom with a double bed, providing accommodation for two people.
+ There may be a separate living area with seating, a sofa, and possibly a coffee table.
+
+            The suite typically comes with a private bathroom that includes standard amenities, such as a shower or bathtub.
+
+            Some double suites may feature a work desk with a chair, catering to business travelers or guests who need a workspace.
+
+          A television is often provided in both the bedroom and the living area. 
+
+            Certain double suites may have a kitchenette with a microwave, refrigerator, and basic kitchenware. In some cases, there might be a full kitchen.
+
+            High-speed internet access is usually available in the suite to keep guests connected.
+
+            double suites may offer extras like complimentary snacks, a minibar, and access to fitness facilities.
+
+             The suite may provide views of the surrounding area, though this can vary based on the hotel's location and design.
+        </p>
+        <p style="font-family: 'Arial Narrow', sans-serif; font-weight: bold; font-size: 20px;">
+            Price: $550 per night
+        </p>
+        <button id="reservation2">Reservation</button>
+    </div>
+    <hr />
+    <br />
+    <div class=" container">
+    <p style="color: #fff; font-size: 20px; text-align: center;font-family:bold;  bottom: 10px; right: 20px;">© 2024 Emanza, All Rights Reserved</p
+</div>
+    <script>
+        document.getElementById('reservation2').addEventListener('click', function () {
+            alert('Your reservation has been confirmed!');
+        });
+    </script>
+</body>
+</html>
