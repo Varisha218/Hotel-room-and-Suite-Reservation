@@ -6,9 +6,6 @@ This project is a simple web page created using HTML and CSS that displays diffe
 - [Features](#features)
 - [Technologies](#technologies)
 - [Usage](#usage)
-- [File Structure](#file-structure)
-- [Screenshots](#screenshots)
-- [License](#license)
 
 ## Features
 - **Stylish Layout**: Displays six different options, including Deluxe Room, Executive Room, Standard Room, Suites, Wedding Hall, and Meeting Room.
